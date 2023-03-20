@@ -1,1 +1,47 @@
-/* To write css */
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    font-size: 8em;
+    display: flex;
+}
+
+.heading a{
+    font-size: 0.5em;
+}
+.contain{
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.lf-img{
+    height: 50vh;
+    width: 100%;
+}
+.rh-img{
+    height: 50vh;
+    width: 100%;
+}
+
+.text{
+    display: flex;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.Md-Text{
+    color: #7A7A7A;
+    font-size: 1rem;
+    padding-top: 15vh;
+    padding-left: 2.5%;
+}
+
+.last {
+    font-size: 1rem;
+    padding-left: 50px;
+    justify-content: flex-end;
+}
